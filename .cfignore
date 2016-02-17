@@ -1,0 +1,7 @@
+node_modules
+data
+out
+spec
+.istanbul.yml
+jsdoc-conf.json
+jshint-options.json
