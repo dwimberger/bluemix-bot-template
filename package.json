@@ -1,6 +1,6 @@
 {
-  "name": "wilie-bot",
-  "description": "Wiener Linien telegram bot",
+  "name": "<yourname>-bot",
+  "description": "Bluemix telegram bot template",
   "version": "1.0.0",
   "author": "dieter@wimpi.net",
   "contributors": [
@@ -17,19 +17,18 @@
     "test": "./node_modules/.bin/istanbul cover --include-all-sources ./node_modules/.bin/jasmine",
     "docs": "./node_modules/.bin/jsdoc -c ./jsdoc-conf.json",
     "predeploy": "echo I am about to deploy",
-    "deploy": "cf push iiw-bot",
+    "deploy": "cf push <yourname>-bot",
     "postdeploy": "echo I have deployed"
   },
   "repository": {
     "type": "git",
-    "url": "https://dwimberger@bitbucket.org/dwimberger/iiw-bot.git"
+    "url": "https://dwimberger@github.com/dwimberger/bluemix-bot-template.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/dwimberger/iiw-bot/issues"
+    "url": "https://github.com/dwimberger/bluemix-bot-template/issues"
   },
   "keywords": [
-    "iiw",
-    "ingress",
+    "bluemix",    
     "telegram",
     "bot"
   ],
